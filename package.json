@@ -1,0 +1,26 @@
+{
+  "name": "react-calendar-latest",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Michael Mclaughlin",
+      "email": "michaelmclaughlindesigns@gmail.com"
+    }
+  ],
+  "private": true,
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "json-watch": "json-server --watch db.json --port 3001",
+    "json-watch-external": "json-server http://jsonplaceholder.typicode.com/db --port 3002",
+    "json-watch-random": "json-server --watch src/randomJSONData.js  --port 3003"
+  }
+}
