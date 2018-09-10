@@ -1,13 +1,14 @@
 {
-  "name": "react-calendar-latest",
+  "name": "react-calendar-component",
   "version": "0.1.0",
   "authors": [
     {
       "name": "Michael Mclaughlin",
-      "email": "michaelmclaughlindesigns@gmail.com"
+      "email": "michaelmclaughlindesigns@gmail.com",
+      "repository": "https://github.com/michael-mclaughlin/react-calendar-component"
     }
   ],
-  "private": true,
+  "private": false,
   "dependencies": {
     "date-fns": "^1.29.0",
     "react": "^16.5.0",
