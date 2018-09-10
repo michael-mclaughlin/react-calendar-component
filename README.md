@@ -1,4 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+## THIS COMPONENT IS A WORK IN PROGRESS AND WILL HAVE SEPARATE BRANCHES CONTAINING NEW UPDATES AND CHANGES.
+## SEE THE PACKAGE.JSON TO UNDERSTAND THE RUN/START SCRIPTS TO RUN IN THE CONSOLE.
+
+## RUN 'yarn json-watch-external' to load the auto-generated json data in one console window (keep that running).
+## RUN 'yarn build && yarn start' to build and start the component in another console window (keep that running).
+## RUN 'sass --watch src/styles/styles.scss:public/styles/styles.css' to build/watch scss in a third console window (you will need to refresh the browser to see the scss changes -- this will be automated soon).
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
