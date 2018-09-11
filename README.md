@@ -2,6 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## THIS COMPONENT IS A WORK IN PROGRESS AND WILL HAVE SEPARATE BRANCHES CONTAINING NEW UPDATES AND CHANGES.
 ## SEE THE PACKAGE.JSON TO UNDERSTAND THE RUN/START SCRIPTS TO RUN IN THE CONSOLE.
 
+## RUN 'npm install -g json-server --save to install a localized json server for generating random json data.
 ## RUN 'yarn json-watch-external' to load the auto-generated json data in one console window (keep that running).
 ## RUN 'yarn build && yarn start' to build and start the component in another console window (keep that running).
 ## RUN 'sass --watch src/styles/styles.scss:public/styles/styles.css' to build/watch scss in a third console window (you will need to refresh the browser to see the scss changes -- this will be automated soon).
