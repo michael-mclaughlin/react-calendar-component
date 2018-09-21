@@ -2,10 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 #### THIS COMPONENT IS A WORK IN PROGRESS AND WILL HAVE SEPARATE BRANCHES CONTAINING NEW UPDATES AND CHANGES.
 SEE THE PACKAGE.JSON TO UNDERSTAND THE RUN/START SCRIPTS TO RUN IN THE CONSOLE.
 ####This project uses Yarn to run everything so you may need to do an install if you don't have it.
-####This project uses json-server to manage the json data. `npm install json-server@latest --save` will install json-server into the project if you don't have it already.
-#### `npm install -g json-server` will install json-server globally if you want to use it for other projects in the future.
-## AVAILABLE SCRIPTS TO RUN COMPONENT
+####This project uses json-server to manage the json data. `npm install json-server@latest --save` will install json-server into the project and save it as a dependency.  Alternatively... `npm install -g json-server` will install json-server globally if you want to use it for other projects in the future.
 
+## AVAILABLE SCRIPTS TO RUN COMPONENT
 ### `yarn install`
 This installs all the node modules that are needed for the component to run. (If you are new to build processes: This must be run first to make the component run properly)
 ### `yarn json-watch-external` 
