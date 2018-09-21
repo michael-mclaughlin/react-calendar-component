@@ -6,12 +6,13 @@
     {
       "name": "Michael Mclaughlin",
       "email": "michaelmclaughlindesigns@gmail.com",
-      "repository": "https://github.com/michael-mclaughlin/react-calendar-component"
+      "repository": "https://code.corp.indeed.com/mclaughlin/react-calendar-widget"
     }
   ],
   "private": false,
   "dependencies": {
     "date-fns": "^1.29.0",
+    "json-server": "^0.14.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-scripts": "1.1.5"
@@ -23,6 +24,8 @@
     "eject": "react-scripts eject",
     "json-watch": "json-server --watch db.json --port 3001",
     "json-watch-external": "json-server http://jsonplaceholder.typicode.com/db --port 3002",
-    "json-watch-random": "json-server --watch src/randomJSONData.js  --port 3003"
+    "json-watch-random": "json-server --watch src/randomJSONData.js  --port 3003",
+    "run-sass-watch": "sass --watch src/styles/styles.scss:public/styles/styles.css",
+    "run-app": "yarn build && yarn start --port 3000 && json-server http://jsonplaceholder.typicode.com/db"
   }
 }

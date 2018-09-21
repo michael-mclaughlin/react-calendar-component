@@ -1,15 +1,35 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-## THIS COMPONENT IS A WORK IN PROGRESS AND WILL HAVE SEPARATE BRANCHES CONTAINING NEW UPDATES AND CHANGES.
-## SEE THE PACKAGE.JSON TO UNDERSTAND THE RUN/START SCRIPTS TO RUN IN THE CONSOLE.
+#### THIS COMPONENT IS A WORK IN PROGRESS AND WILL HAVE SEPARATE BRANCHES CONTAINING NEW UPDATES AND CHANGES.
+SEE THE PACKAGE.JSON TO UNDERSTAND THE RUN/START SCRIPTS TO RUN IN THE CONSOLE.
+####This project uses Yarn to run everything so you may need to do an install if you don't have it.
+####This project uses json-server to manage the json data. `npm install json-server@latest --save` will install json-server into the project if you don't have it already.
+#### `npm install -g json-server` will install json-server globally if you want to use it for other projects in the future.
+## AVAILABLE SCRIPTS TO RUN COMPONENT
 
-## RUN 'yarn json-watch-external' to load the auto-generated json data in one console window (keep that running).
-## RUN 'yarn build && yarn start' to build and start the component in another console window (keep that running).
-## RUN 'sass --watch src/styles/styles.scss:public/styles/styles.css' to build/watch scss in a third console window (you will need to refresh the browser to see the scss changes -- this will be automated soon).
+### `yarn install`
+This installs all the node modules that are needed for the component to run. (If you are new to build processes: This must be run first to make the component run properly)
+### `yarn json-watch-external` 
+Loads the auto-generated json data.  When you run this script you will see output with a "Resources" section in the console. Copy a resource (for example: http://localhost:3002/users) and paste it into the browser window and you will see the json object data related to the resource. (keep that running if you want to see the external json objects for reference).
+### `yarn run-app` 
+This builds/starts the component AND starts the json-server on port 3000 to see the data loaded into the calendar (This is the primary script to use. Keep this running to work with the component).
+### `yarn run-sass-watch` 
+Run this in a separate console window if you want to build/watch the scss (you will need to refresh the browser to see the scss changes live -- this will be automated soon).
+
+### These next scripts are to run the alternate json database data:
+This is configurable data that you can augment as you wish.
+#### `yarn json-watch`
+This runs the db.json file through the json-server on port-3001. When you run this script you will see output with a "Resources" section in the console. Copy a resource (for example: http://localhost:3001/posts) and paste it into the browser window and you will see the json object data related to the resource. (keep that running if you want to see the external json objects for reference). The db.json file is completely editable.  You can write your own data objects and they will run through the json-server.  This is good to use if you need specific data structures...you can set up mock data mimicking the specific data structures.
+#### `yarn json-watch-random`
+This runs javascript I wrote to generate random json data on port-3003 (up to 1000 records) from the ```randomJSONData.js```. When you run this script you will see output with a "Resources" section in the console. Copy a resource (for example: http://localhost:3003/posts) and paste it into the browser window and you will see the json object data related to the resource. This is completely editable just add a new key:value pair.  One Caviat to this is that you will only see a label with numeric values (for example: User Name 0, Department 0, manager 0, etc.).  This script will need to be run every time you update to see the new data for reference.
+
+
+
+### BELOW IS ALL THE INFO PERTAINING TO CREATE REACT APP - Please use the yarn scripts above to work with the component.
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-## Table of Contents
+## Create React App - Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
@@ -167,7 +187,7 @@ Read instructions below for using assets from JavaScript and HTML.
 You can, however, create more top-level directories.<br>
 They will not be included in the production build so you can use them for things like documentation.
 
-## Available Scripts
+## Create React App Scripts (This is an auto-generated part of the .readme because I used Create React App)
 
 In the project directory, you can run:
 
